@@ -11,11 +11,12 @@ body {
 }
 
 header {
+  background-color: white;
   position: fixed;
   top: 0;
   width: 100%;
   z-index: 1;
-  font-size: 10px;
+  font-size: 12px;
 }
 
 main {
@@ -25,9 +26,19 @@ main {
 h1 {
   font-size: 50px;
   padding-bottom: 50px;
+  width: 100%;
 }
 
 /* layout */
+
+.container-h {
+  margin: 0 auto;
+}
+
+.container-jumbo {
+  max-width: 1500px;
+  margin: 0 auto;
+}
 
 .container {
   max-width: 1200px;
@@ -42,7 +53,18 @@ h1 {
 .box {
   background-color: #0061fe;
   margin: 0 auto;
-  padding: 5px 12px;
+  padding: 5px 5px;
+  text-align: center;
+}
+
+.box-white {
+  text-align: center;
+  padding: 10px 0;
+  margin: 0 auto;
+  background-color: white;
+  width: 100%;
+  border-bottom: 1px solid black;
+  margin-bottom: 30px;
 }
 
 header ul {
@@ -58,7 +80,7 @@ header ul li a {
   color: black;
 }
 
-a {
+header ul li a {
   text-decoration: none;
 }
 
@@ -73,14 +95,32 @@ header ul li {
   font-size: 30px;
 }
 
+.box a {
+  color: white;
+  text-decoration: none;
+}
+
+.col-30 ul li {
+  padding: 10px 0;
+  padding-left: 30px;
+}
+
 /* utility */
 
 .position-relative {
   position: relative;
 }
 
+.border-black {
+  border: 1px solid black;
+}
+
 .bg-yellow {
   background-color: yellow;
+}
+
+.h-500 {
+  height: 500px;
 }
 
 .bg-lightblue {
@@ -100,6 +140,18 @@ header ul li {
   padding-top: 25px;
 }
 
+.mb-10 {
+  margin-bottom: 10px;
+}
+
+.mt-100 {
+  margin-top: 100px;
+}
+
+.mt-20 {
+  margin-top: 20px;
+}
+
 .mt-25 {
   margin-top: 25px;
   margin-right: 188px;
@@ -110,11 +162,12 @@ header ul li {
 }
 
 .logo {
-  width: 80px;
+  width: 85px;
 }
 
-.box a {
-  color: white;
+
+.col-30 {
+  width: 30%;
 }
 
 .col-40 {
@@ -124,6 +177,10 @@ header ul li {
 
 .col-60 {
   width: 60%;
+}
+
+.col-100 {
+  width: 100%;
 }
 
 .col-60 img {
@@ -136,4 +193,8 @@ header ul li {
 
 .pd-jumbo {
   padding: 50px 100px;
+}
+
+.gap-50 {
+  gap: 53px;
 }
