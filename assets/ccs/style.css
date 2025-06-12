@@ -55,6 +55,7 @@ h1 {
   margin: 0 auto;
   padding: 5px 5px;
   text-align: center;
+
 }
 
 .box-white {
@@ -103,6 +104,10 @@ header ul li {
 .col-30 ul li {
   padding: 10px 0;
   padding-left: 30px;
+}
+
+.col-30 ul {
+  margin-bottom: 50px;
 }
 
 /* utility */
