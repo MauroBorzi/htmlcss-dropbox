@@ -126,6 +126,11 @@ header ul li {
   padding-left: 30px;
 }
 
+.col-100 ul li {
+  padding: 10px 0;
+  padding-left: 30px;
+}
+
 .col-30 ul {
   margin-bottom: 50px;
 }
@@ -140,12 +145,13 @@ header ul li {
   border: 2px solid #d0cfd3;
 }
 
-.bg-yellow {
-  background-color: yellow;
+.check-blue {
+  color: #0067fe;
+  font-size: 20px;
 }
 
-.h-500 {
-  height: 500px;
+.color-gray {
+  color: #d0cfd3;
 }
 
 .bg-lightblue {
@@ -161,12 +167,24 @@ header ul li {
   padding: 20px;
 }
 
+.pg-30 {
+  padding: 30px;
+}
+
 .pt-150 {
   padding-top: 150px;
 }
 
 .pb-20 {
   padding-bottom: 20px;
+}
+
+.pb-30 {
+  padding-bottom: 30px;
+}
+
+.pb-50 {
+  padding-bottom: 50px;
 }
 
 .mb-30 {
