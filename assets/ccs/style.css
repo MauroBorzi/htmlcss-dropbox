@@ -23,6 +23,11 @@ main {
   margin-top: 61px;
 }
 
+footer {
+  background-color: black;
+  color: white;
+}
+
 /* layout */
 
 h1 {
@@ -54,6 +59,11 @@ hr {
   margin: 0 auto;
 }
 
+.container-f {
+  max-width: 1500px;
+  margin: 0 auto;
+}
+
 .row {
   display: flex;
   flex-wrap: wrap;
@@ -61,6 +71,7 @@ hr {
 
 .box-intro {
   background-color: #0061fe;
+  color: white;
   margin: 0 auto;
   padding: 5px 10px;
   text-align: center;
@@ -69,20 +80,24 @@ hr {
 
 .box {
   background-color: #0061fe;
+  color: white;
   margin: 0 auto;
   padding: 15px 40px;
   text-align: center;
   display: inline-block;
   margin-left: 17px;
+  text-decoration: none;
 }
 
 .box-2 {
   background-color: #0061fe;
+  color: white;
   margin: 0 auto;
   padding: 15px 95px;
   text-align: center;
   display: inline-block;
   margin-left: 17px;
+  text-decoration: none;
 }
 
 .box-invisible {
@@ -93,14 +108,17 @@ hr {
   padding: 15px 20px;
   text-align: center;
   display: inline-block;
+  text-decoration: none;
 }
 
 .box-jumbo {
   background-color: #0061fe;
+  color: white;
   margin: 0 auto;
   padding: 10px 15px;
   text-align: left;
   display: inline-block;
+  text-decoration: none;
 }
 
 .box-white {
@@ -122,7 +140,7 @@ ul {
   list-style-type: none;
 }
 
-header ul li a {
+ul li a {
   color: black;
 }
 
@@ -141,14 +159,14 @@ header ul li {
   font-size: 30px;
 }
 
-.box,
+/* .box,
 .box-2,
 .box-jumbo,
 .box-intro,
 a {
   color: white;
   text-decoration: none;
-}
+} */
 
 .col-30 ul li {
   padding: 10px 0;
@@ -208,8 +226,20 @@ a {
   padding: 50px;
 }
 
+.pt-100 {
+  padding-top: 100px;
+}
+
 .pt-150 {
   padding-top: 150px;
+}
+
+.pt-200 {
+  padding-top: 200px;
+}
+
+.pb-15 {
+  padding-bottom: 15px;
 }
 
 .pb-20 {
@@ -220,12 +250,24 @@ a {
   padding-bottom: 30px;
 }
 
+.pb-40 {
+  padding-bottom: 40px;
+}
+
 .pb-50 {
   padding-bottom: 50px;
 }
 
+.pb-70 {
+  padding-bottom: 70px;
+}
+
 .pr-75 {
   padding-right: 75px;
+}
+
+.ml-80 {
+  margin-left: 80px;
 }
 
 .mb-30 {
@@ -261,8 +303,16 @@ a {
   width: 85px;
 }
 
+.col-20 {
+  width: calc(100% / 6);
+}
+
 .col-30 {
   width: 30%;
+}
+
+.col-33 {
+  width: calc(100% / 3);
 }
 
 .col-35 {
@@ -286,6 +336,10 @@ a {
 }
 
 .col-70 img {
+  width: 100%;
+}
+
+.col-33 img {
   width: 100%;
 }
 
