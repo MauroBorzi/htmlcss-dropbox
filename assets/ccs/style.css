@@ -76,6 +76,7 @@ hr {
   padding: 5px 10px;
   text-align: center;
   display: inline-block;
+  cursor: pointer;
 }
 
 .box {
@@ -87,6 +88,7 @@ hr {
   display: inline-block;
   margin-left: 17px;
   text-decoration: none;
+  cursor: pointer;
 }
 
 .box-2 {
@@ -98,6 +100,7 @@ hr {
   display: inline-block;
   margin-left: 17px;
   text-decoration: none;
+  cursor: pointer;
 }
 
 .box-3 {
@@ -110,6 +113,31 @@ hr {
   text-decoration: none;
   position: absolute;
   right: 380px;
+  cursor: pointer;
+}
+
+.box:hover {
+  background-color: #272d38;
+}
+
+.box-2:hover {
+  background-color: #272d38;
+}
+
+.box-3:hover {
+  background-color: #272d38;
+}
+
+.box-jumbo:hover {
+  background-color: #272d38;
+}
+
+.box-intro:hover {
+  background-color: #272d38;
+}
+
+.box-invisible:hover {
+  background-color: yellowgreen;
 }
 
 .box-invisible {
@@ -121,6 +149,7 @@ hr {
   text-align: center;
   display: inline-block;
   text-decoration: none;
+  cursor: pointer;
 }
 
 .box-jumbo {
@@ -131,6 +160,7 @@ hr {
   text-align: left;
   display: inline-block;
   text-decoration: none;
+  cursor: pointer;
 }
 
 .box-white {
