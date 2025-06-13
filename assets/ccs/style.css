@@ -145,6 +145,10 @@ header ul li {
   border: 2px solid #d0cfd3;
 }
 
+.border-blue {
+  color: #0067fe;
+}
+
 .check-blue {
   color: #0067fe;
   font-size: 20px;
@@ -187,21 +191,25 @@ header ul li {
   padding-bottom: 50px;
 }
 
+.pr-75 {
+  padding-right: 75px;
+}
+
 .mb-30 {
   margin-bottom: 30px;
 }
 
-.mt-100 {
-  margin-top: 100px;
+.mt-40 {
+  margin-top: 40px;
+  margin-bottom: 40px;
 }
 
 .mt-50 {
   margin-top: 50px;
 }
 
-.mt-40 {
-  margin-top: 40px;
-  margin-bottom: 40px;
+.mt-100 {
+  margin-top: 100px;
 }
 
 .display-flex {
@@ -251,4 +259,8 @@ header ul li {
 .absolute-jumbo {
   position: absolute;
   top: 80px;
+}
+
+.text-size {
+  font-size: 30px;
 }
