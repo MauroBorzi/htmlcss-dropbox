@@ -24,9 +24,8 @@ main {
 }
 
 h1 {
-  font-size: 50px;
+  font-size: 100px;
   padding-bottom: 50px;
-  width: 100%;
 }
 
 /* layout */
@@ -53,9 +52,8 @@ h1 {
 .box {
   background-color: #0061fe;
   margin: 0 auto;
-  padding: 5px 5px;
+  padding: 5px 10px;
   text-align: center;
-
 }
 
 .box-white {
@@ -159,7 +157,6 @@ header ul li {
 
 .mt-25 {
   margin-top: 25px;
-  margin-right: 188px;
 }
 
 .justify-space-between {
@@ -170,30 +167,28 @@ header ul li {
   width: 85px;
 }
 
-
 .col-30 {
   width: 30%;
 }
 
-.col-40 {
-  width: 40%;
-  text-align: left;
-}
-
-.col-60 {
-  width: 60%;
+.col-70 {
+  width: 70%;
 }
 
 .col-100 {
   width: 100%;
 }
 
-.col-60 img {
+.col-70 img {
   width: 100%;
 }
 
 .text-center {
   text-align: center;
+}
+
+.text-left {
+  text-align: left;
 }
 
 .pd-jumbo {
